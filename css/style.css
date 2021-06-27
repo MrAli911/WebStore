@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+.navbar-nav{
+    font-family: 'Almarai', sans-serif;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#navbarDropdownMenuLink{
+  float:inline-start;
+}
+
+.dropdown-menu{
+    text-align: right;
+}
+#btn-logout:hover{
+    background-color: red;
+}
+.container .row{
+    font-family: 'Almarai', sans-serif;
+}
