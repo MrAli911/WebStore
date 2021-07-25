@@ -1,0 +1,1 @@
+document.getElementById('loginid').innerText="مرحبا";

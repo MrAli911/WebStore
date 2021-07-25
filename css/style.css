@@ -1,66 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
-.navbar-nav{
-    font-family: 'Almarai', sans-serif;
-    color: white;
-    font-weight: bold;
-    
-}
-
-
-
-
-
-.container .row{
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+nav , .card , footer{
     font-family: 'Almarai', sans-serif;
 }
-
-/* stylesheet for account page html */
-/*
-    DEMO STYLE
-*/
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+.nav-gradiant{
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(85,85,171,1) 0%, rgba(0,212,255,1) 100%);
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
-    
+.body-gradiant{
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 50%, #ffffff 100%) !important;
+
 }
 
-a, a:hover, a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
-}
 
-.navbar {
-    padding: 15px 10px;
-    background: #fff;
-    border: none;
-    border-radius: 0;
-    margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    
-}
+.card{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,114,253,1) 100%) !important;
 
-.navbar-btn {
-    box-shadow: none;
-    float: right;
-    border: none;
-}
-
-.line {
-    width: 100%;
-    height: 1px;
-    border-bottom: 1px dashed #ddd;
-    margin: 40px 0;
 }
 
